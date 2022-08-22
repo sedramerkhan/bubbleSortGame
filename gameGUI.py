@@ -217,7 +217,6 @@ class GUI(Frame):
 
     """Bottles"""
 
-
     def draw_bottles(self):
         # x = self.start_x
         # y = self.start_y
@@ -285,3 +284,14 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# To play game run the "gameGUI" file
+# it will create game using "game class" after choosing level
+# "game class" use "Bottles class" to create bottles with random colors
+#
+#
+# PathGui class:
+#     it makes frame to display the path of answer (using bottlesgui) where each object represents a node of path
+#
+# bottlesgui class:
+#     it makes bottles with balls
