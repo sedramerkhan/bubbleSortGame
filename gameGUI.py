@@ -217,6 +217,7 @@ class GUI(Frame):
 
     """Bottles"""
 
+
     def draw_bottles(self):
         # x = self.start_x
         # y = self.start_y
